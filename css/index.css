@@ -1,0 +1,221 @@
+@charset "uft-8";
+*{margin: 0;padding:  0;font-family: 'Noto Sans KR', sans-serif; }
+ul {  list-style: none;}
+a {  text-decoration: none;  color: #000;}
+
+body{ width: 100%; height: 100%;}
+
+.header{width: 100%; background-color: #f5f5f5;}
+.header .header-pre{ height: 36px;display: flex; justify-content: space-between;padding: 0 38px 0 36px; align-items: center;}
+.header .header-pre .logo ul{display: flex;}
+.header .header-pre .logo ul li{padding-right: 12px;}
+.header .header-pre .login ul{display: flex;}
+.header .header-pre .login ul li{margin: 0 8px; font-size: 14px; font-weight: bold;}
+.header .header-pre .login ul li span{margin-left: 14px;}
+
+.header .header-menu{
+    /* padding: 0 38px 0 36px;  */
+    display: flex;
+     justify-content: space-between; 
+     overflow: hidden;}
+     .header .header-menu .logo{padding: 0 38px 0 36px; overflow: hidden;}
+.header .header-menu{width: 100%; height: 56px ;overflow: hidden; background-color: #fff; padding-top: 4px; align-items: center; position: relative; }
+
+.header .header-menu .nike ul{display: flex;
+  justify-content: center;
+    padding: 2px;}
+.header .header-menu .nike ul li{padding: 0 12px 12px 18px; font-weight: bold; } 
+.header .header-menu input{width: 180px; height: 40px; padding: 8px 48px; box-sizing: border-box; border-radius: 30px; background-color: #f5f5f5; border: none;font-size: 12px; font-weight: bold; margin-right: 200px; position: relative;}
+.header .header-menu input:focus{border: none;outline: none; background: #e2e1e1;}
+.header .header-menu input::placeholder{
+  color: #c2bcbc; font-size: 14px;
+}
+.header .header-menu .icon{position: absolute; right: 50px;}
+.header .header-menu .icon svg{padding: 12px; width: 24px; height: 24px;}
+.header .header-menu .icon svg:hover{background: #e2e1e1; border-radius: 50%;}
+
+.header .header-menu .search{position: absolute; right: 335px; top: 9px;}
+.header .header-menu .search svg{padding: 12px; width: 24px; height: 24px;}
+.header .header-menu .search svg:hover{background: #e2e1e1; border-radius: 50%;}
+.header .header-space{width: 100%;height: 48px;padding-top: 10px;background-color: #f5f5f5;}
+
+.sub-menu-wrap1,.sub-menu-wrap2,.sub-menu-wrap3,.sub-menu-wrap4,.sub-menu-wrap5{display: none;}
+
+.sub-menu{width: 100%;display: flex; position: absolute; background-color: #fff; top: 96px; justify-content: center; padding-bottom: 50px; flex-wrap: wrap;}
+.sub-menu ul {flex-basis: 13%; }
+.sub-menu ul a{color:#585656 ;}
+.sub-menu ul li{line-height: 2;}
+.sub-menu ul li .title{font-weight: 900; color: #000;}
+.sub-menu ul .guide{margin-bottom: 20px 0; margin-top: 40px;}
+.sub-menu ul li:nth-child(1) a{font-weight: 900; color: #000; }
+.sub-menu ul li:nth-child(1){margin-bottom: 20px;}
+.sub-menu ul li:not(:nth-child(1)):hover{font-weight: bold; color: #000;}
+.menu-item {
+  transition: border-bottom 0.3s ease;
+}
+.center{margin: 0 auto; text-align: center; width: 100%;}
+.center .center-ad1{margin-bottom: 90px;}
+.center .center-ad1 ul li p:nth-child(1){margin-top: 42px;}
+.center .center-ad1 h3{font-size: 48px; margin-top: -10px;}
+.center .center-ad1 .QR-code p{background-color: #111 ;color: #fff; margin: 6px 6px 0 0; padding: 6px 20px; border-radius: 30px; display: inline-block; font-weight: 500; }
+
+
+.center .center-ad1 ul li{margin-bottom: 24px;}
+.center .center-ad1 a:nth-child(2) {background-color: #111 ;color: #fff; margin: 6px 6px 0 0; padding: 6px 20px; border-radius: 30px; display: inline-block; font-weight: 500; margin-bottom: 20px;}
+
+.center .center-ad2,.center-ad3,.center-ad4,.center-ad5,.center-ad6,.center-ad7,.center-ad8{ margin-bottom: 90px;}
+.center .center-ad2 h3,.center-ad5 h3{padding: 24px 0; font-size: 48px; font-weight: 800;}
+.center .center-ad3 h3,.center-ad4 h3,.center-ad6 h3,.center-ad7 h3{font-size: 48px; font-weight: 800; line-height:90%; padding-bottom: 24px; 
+
+}
+.center-ad3 p:nth-of-type(1),.center-ad4 p:nth-of-type(1),.center-ad6 p:nth-of-type(1),.center-ad7 p:nth-of-type(1){padding-top: 24px;}
+
+/* .center .center-ad3 p:nth-of-type(1){line-height:10%;} */
+.center .center-ad2 ul li{margin-bottom: 20px;}
+.center .center-ad2 a:nth-child(2),.center .center-ad2 a:nth-child(3){background-color: #111 ;color: #fff; margin: 6px 6px 0 0; padding: 6px 20px; border-radius: 30px; display: inline-block; font-weight: 500;}
+.center .center-ad3 > a{background-color: #111 ;color: #fff; margin: 6px 6px 0 0; padding: 6px 20px; border-radius: 30px; display: inline-block; font-weight: 500; margin: 24px 0;}
+.center .center-ad4 > a{background-color: #111 ;color: #fff; margin: 6px 6px 0 0; padding: 6px 20px; border-radius: 30px; display: inline-block; font-weight: 500;margin: 24px 0;}
+.center .center-ad5 > a{background-color: #111 ;color: #fff; margin: 6px 6px 0 0; padding: 6px 20px; border-radius: 30px; display: inline-block; font-weight: 500;margin: 24px 0;}
+.center .center-ad6 > a{background-color: #111 ;color: #fff; margin: 6px 6px 0 0; padding: 6px 20px; border-radius: 30px; display: inline-block; font-weight: 500;margin: 24px 0;}
+.center .center-ad7 > a{background-color: #111 ;color: #fff; margin: 6px 6px 0 0; padding: 6px 20px; border-radius: 30px; display: inline-block; font-weight: 500;margin: 24px 0;}
+.center .center-ad8 >div>a{background-color: #fff ;color: #111; margin: 6px 6px 0 0; padding: 6px 20px; border-radius: 30px; display: inline-block; font-weight: 500;margin: 24px 0;}
+
+
+.center .center-wrap ul{ max-width: 95%;margin: 0 36px; padding: 0 6px;}
+
+/* .center .center-wrap .center-ad1 .QR-code{margin: 0 38px 0 36px;} */
+.center .center-wrap .center-ad1 .QR-code p{font-size: 20px;}
+
+.center .center-wrap .center-ad1 .QR-code img{width: 100%; }
+.center .center-wrap .center-ad8 h2{text-align: left; margin: 0 40px; margin-bottom: 42px;}
+.center .center-wrap .center-ad8 ul {display: flex; width: 100%;}
+.center .center-wrap .center-ad8{position: relative;}
+.center .center-wrap .center-ad8 ul li:nth-child(1){ margin-right: 6px;}
+.center .center-wrap .center-ad8 ul li:nth-child(2){margin-left: 6px;}
+/* .center .center-wrap .center-ad8 ul li a:nth-child(1){flex-basis:50%;padding-right: 6px;}
+.center .center-wrap .center-ad8 ul li a:nth-child(2){flex-basis: 50%; padding-left: 6px;} */
+.center .center-wrap .center-ad8 .cortez{position: absolute; bottom: 30px; left: 60px;}
+.center .center-wrap .center-ad8 .dunk{position: absolute; bottom: 30px; left: 52%;}
+.center .center-wrap .center-ad8 div p{color: #fff; font-weight: bold; font-size: 20px; margin-left: 30px; margin-bottom: 10px;}
+.center .center-wrap .center-ad8 .dunk p{margin-right:30px;}
+.bottom .featured-shoes h2{margin: 0 38px 0 40px;}
+.bottom .featured-shoes{width:97%; height: 100%;overflow: hidden; position: relative;}
+.bottom .featured-shoes ul{display: flex; padding: 0 0 30px 48px; transition: transform 0.3s; }
+.bottom .featured-shoes ul li{padding-right: 12px; }
+
+.bottom .featured-shoes ul li p{display: flex;justify-content: space-between;}
+.bottom .featured-shoes ul li p span{margin-right: 6px;}
+
+.fleece .featured-shoes h2{margin: 0 38px 24px 40px; text-align: left;}
+.fleece .featured-shoes{ width: 97%; overflow: hidden;
+  position: relative; margin: 0 auto;
+ ;}
+.fleece .featured-shoes ul{display: flex; transition: transform 0.3s; }
+.fleece .featured-shoes ul li{padding-right: 12px}
+.fleece .featured-shoes ul li img{width: 593px; }
+.fleece{overflow: hidden; width: 100%; margin-bottom: 84px; text-align: left;}
+.fleece .featured-shoes ul li h4{padding-top: 16px; margin-bottom: 16px; font-size: 20px;}
+.fleece .featured-shoes ul li p{padding-right: 16px;}
+
+
+.slider-buttons {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  z-index: 999;
+  margin-bottom: 12px;
+}
+
+.prev, .next {
+  border-radius: 50%;
+  border: none;
+  margin: 0 5px ;
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+  z-index: 999;
+
+}
+.prevbtn, .nextbtn{
+  position: absolute;
+  border-radius: 50%;
+  border: none;
+  margin: 0 5px ;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  z-index: 999;
+}
+.slide2 .prevbtn {
+  position: absolute;
+  top: 50%;           
+  left: 100px;           
+  transform: translateY(-50%); 
+  background-color: #f5f5f5;
+  border: none;      
+  cursor: pointer;   
+}
+.slide2 .nextbtn {
+  position: absolute;
+  top: 50%;           
+  right: 80px;           
+  transform: translateY(-50%); 
+  background-color: #f5f5f5;
+  border: none;     
+  cursor: pointer;  
+}
+.bottom .featured-shoes h2{margin-bottom: 24px;}
+
+.slide2{margin: 70px 38px 0px 36px;  position: relative;}
+.slide2 h2{margin-bottom: 24px;}
+.slider:active{cursor: grabbing;}
+.slider {width:100%; overflow: hidden; margin: 0 auto;}
+.slider ul{display: flex;width: 100%;column-gap: 1%;}
+.slider ul li a{overflow: hidden;width: 500px;height: 540px; }
+.slider ul li p{opacity: 0;transition: 0.3s;}
+.slider ul li:hover p{opacity: 1;}
+.apparel-essentials h2{margin-bottom: 24px;}
+
+.apparel-essentials{margin: 0 58px 0 48px; padding-bottom: 30px;}
+.apparel-essentials ul{display: flex; column-gap: 0.7%;}
+
+.bottom .nike-community{width: 100%; overflow: hidden;}
+.nike-community h2{margin: 0 36px 0 38px;}
+.nike-community ul{display: flex; column-gap: 0.7%; justify-content: space-between; margin: 0 36px 0 38px;}
+.nike-community ul li h3{margin: 24px 0; font-size: 24px;}
+.nike-community ul li p{line-height: 2;}
+.nike-community ul li{flex-basis: 25%; overflow: hidden; height: 100%;}
+.nike-community ul li img{    width: 447px;height: 570px;object-fit: none;}
+.nike-community ul li a:last-child{background-color: #111 ;color: #fff; margin: 6px 6px 0 0; padding: 6px 20px; border-radius: 30px; display: inline-block; font-weight: 500;margin: 24px 0;}
+.apparel-essentials{ margin-top: 84px;}
+
+.nike-community{margin-top: 84px;}
+.bottom-menu .menu-wrap{ margin: 84px auto; padding-left:170px;}
+.bottom-menu .menu-wrap .menu-wrap-top{position: relative;}
+.bottom-menu .menu-wrap .menu-wrap-top,
+.bottom-menu .menu-wrap .menu-wrap-bottom{display: flex; justify-content:center;}
+.bottom-menu .menu-wrap .menu-wrap-bottom{margin-bottom: 24px;}
+.bottom-menu .menu-wrap .menu-wrap-top ul li a{line-height: 2.5;}
+.bottom-menu .menu-wrap .menu-wrap-bottom ul li a{line-height: 2.5;}
+.bottom-menu .menu-wrap .menu-wrap-top ul li a h4{margin-bottom: 10px;}
+.bottom-menu .menu-wrap .menu-wrap-top ul,
+.bottom-menu .menu-wrap .menu-wrap-bottom ul{flex-basis:15% ;}
+
+.bottom-menu .menu-wrap .menu-wrap-bottom{opacity: 0; transition: 0.5s; max-height: 100px;}
+.bottom-menu .menu-wrap:hover .menu-wrap-bottom{opacity:1; max-height:300px;}
+
+.footer{width: 100%; background-color: #111; min-height: 200px;}
+.footer .footer-wrap{width: 75%; margin: 0 231.5px; padding: 40px 40px 0;}
+.footer .footer-menu{display: flex;}
+.footer .footer-menu ul{flex-basis: 20%;}
+.footer .footer-menu ul li{margin-bottom: 3px; line-height: 200%;}
+.footer .footer-menu ul li a{color: #fff;}
+.footer .footer-menu ul li a p{color: #7e7e7e; font-size: 12px; }
+.footer .footer-wrap .footer-info > ul{ display: flex; justify-content: space-between; border-bottom: 1px solid #7e7e7e;  display: flex;vertical-align: middle;}
+.footer .footer-wrap .footer-info ul li{ display: flex; vertical-align: middle;}
+.footer .footer-wrap .footer-info ul li a{color:#fff ; padding: 8px; }
+.footer .footer-wrap .footer-info li p{color: #7e7e7e; font-size: 12px;}
+.footer .footer-wrap .footer-info li span{padding: 8px;color: #7e7e7e; font-size: 12px;}
+.footer .footer-wrap .footer-info .info-bottom{display: flex; column-gap: 5%; justify-content: space-between;}
+.footer .footer-wrap .footer-info .info-bottom ul{flex-basis: 50%;}
+.footer .footer-wrap .footer-info .info-bottom ul li span{ font-size: 11px;}
